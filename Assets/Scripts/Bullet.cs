@@ -14,10 +14,10 @@ public class Bullet : MonoBehaviour
 
     //Movement Controls 
     private Rigidbody2D _rigidbody2D; //The rigidbody that will move the bullet 
-    public float speed = 2;           //Speed at which the bullet moves 
+    public float speed = 3;           //Speed at which the bullet moves 
 
     //Flag and Timer 
-    public float deathTime = 1.5f;   //How long before the bullet dies 
+    public float deathTime = 1.8f;   //How long before the bullet dies 
     public bool playerBullet = true; //Is the bullet used by player or enemy 
 
     //==================================================================================================================

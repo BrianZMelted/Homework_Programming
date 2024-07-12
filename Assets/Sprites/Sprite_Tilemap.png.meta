@@ -3,7 +3,7 @@ guid: 08feec22993782742a73cc25b3a3bb99
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -106,6 +106,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,10 +126,10 @@ TextureImporter:
       name: Sprite_Tilemap_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 340
-        width: 32
-        height: 24
+        x: 0
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +147,10 @@ TextureImporter:
       name: Sprite_Tilemap_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 336
-        width: 16
-        height: 32
+        x: 64
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +168,10 @@ TextureImporter:
       name: Sprite_Tilemap_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 336
-        width: 48
-        height: 32
+        x: 128
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +189,10 @@ TextureImporter:
       name: Sprite_Tilemap_3
       rect:
         serializedVersion: 2
-        x: 200
-        y: 336
-        width: 48
-        height: 32
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +210,10 @@ TextureImporter:
       name: Sprite_Tilemap_4
       rect:
         serializedVersion: 2
-        x: 264
-        y: 328
-        width: 48
-        height: 48
+        x: 256
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +231,10 @@ TextureImporter:
       name: Sprite_Tilemap_5
       rect:
         serializedVersion: 2
-        x: 328
-        y: 328
-        width: 48
-        height: 48
+        x: 320
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +252,10 @@ TextureImporter:
       name: Sprite_Tilemap_6
       rect:
         serializedVersion: 2
-        x: 392
-        y: 328
-        width: 48
-        height: 48
+        x: 384
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +273,10 @@ TextureImporter:
       name: Sprite_Tilemap_7
       rect:
         serializedVersion: 2
-        x: 456
-        y: 328
-        width: 48
-        height: 48
+        x: 448
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +294,10 @@ TextureImporter:
       name: Sprite_Tilemap_8
       rect:
         serializedVersion: 2
-        x: 16
-        y: 264
-        width: 32
-        height: 48
+        x: 0
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +315,10 @@ TextureImporter:
       name: Sprite_Tilemap_9
       rect:
         serializedVersion: 2
-        x: 72
-        y: 264
-        width: 48
-        height: 48
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +336,10 @@ TextureImporter:
       name: Sprite_Tilemap_10
       rect:
         serializedVersion: 2
-        x: 144
-        y: 264
-        width: 32
-        height: 48
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +357,10 @@ TextureImporter:
       name: Sprite_Tilemap_11
       rect:
         serializedVersion: 2
-        x: 200
-        y: 264
-        width: 48
-        height: 47
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +378,10 @@ TextureImporter:
       name: Sprite_Tilemap_12
       rect:
         serializedVersion: 2
-        x: 264
-        y: 264
-        width: 48
-        height: 48
+        x: 256
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,9 +400,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 272
+        y: 256
         width: 64
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +420,10 @@ TextureImporter:
       name: Sprite_Tilemap_14
       rect:
         serializedVersion: 2
-        x: 392
-        y: 264
-        width: 48
-        height: 48
+        x: 384
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +441,10 @@ TextureImporter:
       name: Sprite_Tilemap_15
       rect:
         serializedVersion: 2
-        x: 456
-        y: 264
-        width: 48
-        height: 48
+        x: 448
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +462,10 @@ TextureImporter:
       name: Sprite_Tilemap_16
       rect:
         serializedVersion: 2
-        x: 8
-        y: 200
-        width: 48
-        height: 48
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +483,10 @@ TextureImporter:
       name: Sprite_Tilemap_17
       rect:
         serializedVersion: 2
-        x: 75
-        y: 195
-        width: 42
-        height: 52
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +504,10 @@ TextureImporter:
       name: Sprite_Tilemap_18
       rect:
         serializedVersion: 2
-        x: 134
-        y: 198
-        width: 52
-        height: 52
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +525,10 @@ TextureImporter:
       name: Sprite_Tilemap_19
       rect:
         serializedVersion: 2
-        x: 198
-        y: 198
-        width: 52
-        height: 52
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +546,10 @@ TextureImporter:
       name: Sprite_Tilemap_20
       rect:
         serializedVersion: 2
-        x: 264
-        y: 208
-        width: 48
-        height: 32
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +567,10 @@ TextureImporter:
       name: Sprite_Tilemap_21
       rect:
         serializedVersion: 2
-        x: 328
-        y: 200
-        width: 48
-        height: 48
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +588,10 @@ TextureImporter:
       name: Sprite_Tilemap_22
       rect:
         serializedVersion: 2
-        x: 388
-        y: 196
-        width: 56
-        height: 56
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +609,10 @@ TextureImporter:
       name: Sprite_Tilemap_23
       rect:
         serializedVersion: 2
-        x: 450
-        y: 194
-        width: 60
-        height: 60
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +630,10 @@ TextureImporter:
       name: Sprite_Tilemap_24
       rect:
         serializedVersion: 2
-        x: 8
-        y: 136
-        width: 48
-        height: 48
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +651,10 @@ TextureImporter:
       name: Sprite_Tilemap_25
       rect:
         serializedVersion: 2
-        x: 80
-        y: 144
-        width: 32
-        height: 32
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +672,10 @@ TextureImporter:
       name: Sprite_Tilemap_26
       rect:
         serializedVersion: 2
-        x: 136
-        y: 136
-        width: 48
-        height: 48
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,10 +693,10 @@ TextureImporter:
       name: Sprite_Tilemap_27
       rect:
         serializedVersion: 2
-        x: 208
-        y: 144
-        width: 32
-        height: 32
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +714,10 @@ TextureImporter:
       name: Sprite_Tilemap_28
       rect:
         serializedVersion: 2
-        x: 280
-        y: 152
-        width: 16
-        height: 16
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +735,10 @@ TextureImporter:
       name: Sprite_Tilemap_29
       rect:
         serializedVersion: 2
-        x: 328
-        y: 136
-        width: 48
-        height: 48
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,10 +756,10 @@ TextureImporter:
       name: Sprite_Tilemap_30
       rect:
         serializedVersion: 2
-        x: 392
-        y: 136
-        width: 48
-        height: 47
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +777,10 @@ TextureImporter:
       name: Sprite_Tilemap_31
       rect:
         serializedVersion: 2
-        x: 472
-        y: 152
-        width: 16
-        height: 16
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,10 +798,10 @@ TextureImporter:
       name: Sprite_Tilemap_32
       rect:
         serializedVersion: 2
-        x: 8
-        y: 72
-        width: 48
-        height: 48
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,10 +819,10 @@ TextureImporter:
       name: Sprite_Tilemap_33
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 32
-        height: 32
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -827,10 +840,10 @@ TextureImporter:
       name: Sprite_Tilemap_34
       rect:
         serializedVersion: 2
-        x: 136
-        y: 72
-        width: 48
-        height: 48
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -848,10 +861,10 @@ TextureImporter:
       name: Sprite_Tilemap_35
       rect:
         serializedVersion: 2
-        x: 208
-        y: 80
-        width: 32
-        height: 32
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,10 +882,10 @@ TextureImporter:
       name: Sprite_Tilemap_36
       rect:
         serializedVersion: 2
-        x: 262
-        y: 70
-        width: 52
-        height: 44
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,10 +903,10 @@ TextureImporter:
       name: Sprite_Tilemap_37
       rect:
         serializedVersion: 2
-        x: 326
-        y: 70
-        width: 52
-        height: 52
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,10 +924,10 @@ TextureImporter:
       name: Sprite_Tilemap_38
       rect:
         serializedVersion: 2
-        x: 390
-        y: 78
-        width: 52
-        height: 36
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,10 +945,10 @@ TextureImporter:
       name: Sprite_Tilemap_39
       rect:
         serializedVersion: 2
-        x: 454
-        y: 78
-        width: 52
-        height: 36
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -953,10 +966,10 @@ TextureImporter:
       name: Sprite_Tilemap_40
       rect:
         serializedVersion: 2
-        x: 8
-        y: 8
-        width: 48
-        height: 48
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,10 +987,10 @@ TextureImporter:
       name: Sprite_Tilemap_41
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
-        width: 32
-        height: 32
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,10 +1008,10 @@ TextureImporter:
       name: Sprite_Tilemap_42
       rect:
         serializedVersion: 2
-        x: 136
-        y: 8
-        width: 48
-        height: 48
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,10 +1029,10 @@ TextureImporter:
       name: Sprite_Tilemap_43
       rect:
         serializedVersion: 2
-        x: 208
-        y: 16
-        width: 32
-        height: 32
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1037,10 +1050,10 @@ TextureImporter:
       name: Sprite_Tilemap_44
       rect:
         serializedVersion: 2
-        x: 264
-        y: 8
-        width: 48
-        height: 48
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1058,10 +1071,10 @@ TextureImporter:
       name: Sprite_Tilemap_45
       rect:
         serializedVersion: 2
-        x: 336
-        y: 16
-        width: 32
-        height: 32
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1079,9 +1092,9 @@ TextureImporter:
       name: Sprite_Tilemap_46
       rect:
         serializedVersion: 2
-        x: 400
+        x: 384
         y: 0
-        width: 32
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1100,9 +1113,9 @@ TextureImporter:
       name: Sprite_Tilemap_47
       rect:
         serializedVersion: 2
-        x: 464
+        x: 448
         y: 0
-        width: 32
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}

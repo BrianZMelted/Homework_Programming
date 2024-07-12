@@ -38,7 +38,7 @@ public class SpawnEnemy : MonoBehaviour
 
     private void EnemySpawn()
     {
-        if(enemyTrash.childCount > 10){ return;}
+        if(enemyTrash.childCount > 7){ return;}
         //Randomizes the postion 
         Vector3 newPosition = GetOrientation();
         var enemy = Instantiate(preFab, newPosition, Quaternion.identity);
@@ -46,6 +46,28 @@ public class SpawnEnemy : MonoBehaviour
         enemy.transform.SetParent(enemyTrash);
    
         enemy.GetComponent<Enemy>().SetSpeed(GetSpeed());
+        //Wait to spawn next asteroid 
+        _canSpawn = false;
+        //
+        index++;
+
+        if (index == transforms.Count)
+        {
+            index = 0;
+        }
+    }
+
+
+    private void EnemyShipSpawn()
+    {
+        if (enemyTrash.childCount > 3) { return; }
+        //Randomizes the postion 
+        Vector3 newPosition = GetOrientation();
+        var enemy = Instantiate(preFab, newPosition, Quaternion.identity);
+        //Attach to trash 
+        enemy.transform.SetParent(enemyTrash);
+
+        enemy.GetComponent<EnemyShip>().SetSpeed(GetSpeed());
         //Wait to spawn next asteroid 
         _canSpawn = false;
         //
